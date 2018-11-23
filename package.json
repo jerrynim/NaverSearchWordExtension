@@ -1,0 +1,33 @@
+{
+  "name": "snaverserachwrodextension",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "git": "^0.1.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-iframe": "^1.3.3",
+    "react-scripts": "1.1.0",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "네이버 검색어 extension app",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrynim/NaverSearchWordExtension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jerrynim/NaverSearchWordExtension/issues"
+  },
+  "homepage": "https://github.com/jerrynim/NaverSearchWordExtension#readme"
+}
