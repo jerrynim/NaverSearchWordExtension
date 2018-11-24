@@ -1,0 +1,116 @@
+.clock {
+  font-size: 10px;
+  color: rgb(145, 145, 145);
+}
+
+.box {
+  width: 220px;
+  height: 300px;
+  border: 1px solid rgb(176, 167, 172);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.selectbox {
+  font-size: 11px;
+  margin-left: 112px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 40%;
+  width: 95px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.selectbox select {
+  padding: 5px 8px;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+.selectbox select:focus {
+  outline: none;
+}
+
+.font-naver {
+  font-size: 12px;
+  margin-left: 20px;
+  color: rgb(130, 200, 41);
+}
+
+.Item_box {
+  font-size: 15px;
+  margin: auto;
+  line-height: 200%;
+}
+.Item_box:hover {
+  background-color: rgba(102, 102, 102, 0.07);
+}
+
+.naver {
+  position: fixed;
+  width: 100px;
+  height: 35px;
+  background-image: url("./naver.png");
+  background-size: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.wrapper {
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(102, 102, 102, 0.07);
+}
+.Rank_style {
+  padding-left: 10px;
+}
+
+.keyword_style {
+  padding-left: 10px;
+}
+
+.keyword_style:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.example1 {
+  overflow: hidden;
+  position: relative;
+  font-size: 15px;
+  margin: auto;
+  line-height: 200%;
+}
+.example1 span {
+  font-size: 15px;
+  margin: auto;
+  line-height: 200%;
+  position: absolute;
+  width: auto;
+  height: 20;
+
+  text-align: center;
+  /* Starting position */
+
+  transform: translateY(100%);
+  /* Apply animation to this element */
+
+  animation: example1 1s linear infinite;
+}
+/* Move it (define the animation) */
+
+@keyframes example1 {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(80%);
+  }
+}

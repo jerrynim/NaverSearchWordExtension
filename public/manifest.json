@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "네이버 실시간 검색어",
+  "description": "네이버 실시간 검색어 및 카테고리별 일간 검색어 순위",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "네이버 실시간 검색"
+  },
+  "background": {
+    "scripts": ["app/background.js"]
+  }
+}
